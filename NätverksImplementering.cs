@@ -8,7 +8,7 @@ class Nätverksimplementering
     static void Network()
     {
         // Skapa en TCP-anslutning till en server
-        TcpClient client = new TcpClient("84.216.176.117", 12345); // Ändra "serverIP" till serverns IP-adress och portnummers
+        TcpClient client = new TcpClient("Server IP", 12345); // Ändra "serverIP" till serverns IP-adress och portnummers
 
         // Skapa en ström för att skicka och ta emot data
         NetworkStream stream = client.GetStream();
