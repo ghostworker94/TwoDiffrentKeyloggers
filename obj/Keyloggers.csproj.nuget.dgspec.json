@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "e:\\HackingTools\\Keyloggers\\Keyloggers.csproj": {}
+  },
+  "projects": {
+    "e:\\HackingTools\\Keyloggers\\Keyloggers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "e:\\HackingTools\\Keyloggers\\Keyloggers.csproj",
+        "projectName": "Keyloggers",
+        "projectPath": "e:\\HackingTools\\Keyloggers\\Keyloggers.csproj",
+        "packagesPath": "C:\\Users\\henke\\.nuget\\packages\\",
+        "outputPath": "e:\\HackingTools\\Keyloggers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\henke\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

